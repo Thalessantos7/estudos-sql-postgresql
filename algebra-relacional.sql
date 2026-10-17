@@ -18,3 +18,5 @@
 -- SELECT tcode FROM participate INTERSECT SELECT tcode FROM stay
 
 -- SELECT trt.name AS turista, act.aname AS atividade, year AS ano, cost AS custo FROM participate AS ptr LEFT JOIN tourist AS trt ON ptr.tcode = trt.tcode LEFT JOIN activity AS act ON ptr.acode = act.acode
+
+-- SELECT tourist.name, SUM(cost) AS soma FROM participate LEFT JOIN tourist ON participate.tcode = tourist.tcode GROUP BY tourist.name
