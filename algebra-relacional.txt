@@ -16,3 +16,5 @@
 
 -- π tcode (participate) ∪ π tcode (stay)
 -- π tcode (participate) ∩ π tcode (stay)
+
+-- π turista←trt.name, atividade←act.aname, ano←year, custo←cost (ρ ptr participate ⟕ ptr.tcode = trt.tcode ρ trt tourist ⟕ ptr.acode = act.acode ρ act activity)
