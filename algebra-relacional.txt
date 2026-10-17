@@ -3,3 +3,7 @@
 -- π acode, aname, duration_in_minutes (activity)
 -- π hcode, tcode, year, days, cost (stay)
 -- π tcode, acode, year, cost (participate)
+
+-- σ hcode = 'h1' (hotel)
+-- σ year > 2001 (participate)
+-- σ year > 2001 ∧ year ≤ 2004 (participate)
