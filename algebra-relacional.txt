@@ -1,0 +1,5 @@
+-- π hcode, name, city, country (hotel)
+-- π tcode, name, country, age, gender (tourist)
+-- π acode, aname, duration_in_minutes (activity)
+-- π hcode, tcode, year, days, cost (stay)
+-- π tcode, acode, year, cost (participate)

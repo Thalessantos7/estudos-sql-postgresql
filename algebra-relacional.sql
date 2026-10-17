@@ -1,0 +1,5 @@
+-- SELECT * FROM hotel
+-- SELECT tcode, name, country, age, gender FROM tourist
+-- SELECT acode, aname, duration_in_minutes FROM activity
+-- SELECT hcode, tcode, year, days, cost FROM stay
+-- SELECT tcode, acode, year, cost FROM participate
