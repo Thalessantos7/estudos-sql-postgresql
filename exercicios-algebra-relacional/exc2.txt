@@ -1,0 +1,2 @@
+-- 2. O nome do hotel, o nome do cliente, o ano, os dias de hospedagem e custo da hospedagem (join na tabela stay).
+π hotel.name, tourist.name, year, days, cost (stay ⟕ stay.hcode = hotel.hcode hotel ⟕ stay.tcode = tourist.tcode tourist)

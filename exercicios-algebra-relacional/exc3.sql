@@ -1,0 +1,2 @@
+-- 3. O somatório do custo da hospedagem agrupado pelo nome do hotel (agrupamento e join na tabela stay).
+SELECT hotel.name, SUM(cost) AS soma FROM stay LEFT JOIN hotel ON stay.hcode = hotel.hcode GROUP BY hotel.name

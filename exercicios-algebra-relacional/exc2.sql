@@ -1,0 +1,2 @@
+-- 2. O nome do hotel, o nome do cliente, o ano, os dias de hospedagem e custo da hospedagem (join na tabela stay).
+SELECT hotel.name, tourist.name, year, days, cost FROM stay LEFT JOIN hotel ON stay.hcode = hotel.hcode LEFT JOIN tourist ON stay.tcode = tourist.tcode

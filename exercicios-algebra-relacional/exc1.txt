@@ -1,0 +1,2 @@
+-- 1. O nome e o país dos turistas com mais de 20 anos e do gênero feminino (project + select).
+π name, country σ age > 20 ∧ gender = 'female' (tourist)

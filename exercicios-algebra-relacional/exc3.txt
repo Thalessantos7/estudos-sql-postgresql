@@ -1,0 +1,2 @@
+-- 3. O somatório do custo da hospedagem agrupado pelo nome do hotel (agrupamento e join na tabela stay).
+γ hotel.name ; SUM(cost)->soma (stay ⟕ stay.hcode = hotel.hcode hotel)
